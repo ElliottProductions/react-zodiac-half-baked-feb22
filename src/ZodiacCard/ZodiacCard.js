@@ -2,9 +2,9 @@ import './ZodiacCard.css';
 
 export default function ZodiacCard(props) {
   return (
-    <div>
-      {props.name} born {props.date}
-      <img src={`url(.../public/images/leo.png)`}/>
+    <div className='zodiac-card'>
+      {props.name} is {props.dates}
+      <img src={`../images/${props.name}.png`}/>
 
     </div>
   );
